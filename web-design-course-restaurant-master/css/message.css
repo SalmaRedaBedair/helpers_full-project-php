@@ -1,0 +1,18 @@
+.success{
+    background-color: #22a6b3;
+    margin: 1%;
+    padding: 1%;
+}
+.error{
+    background-color: #eb4d4b;
+    margin: 1%;
+    padding: 1%;
+}
+
+.error-text{
+    color: red;
+}
+
+.text-center{
+    text-align: center;
+}

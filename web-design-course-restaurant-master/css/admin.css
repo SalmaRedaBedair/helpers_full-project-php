@@ -1,0 +1,119 @@
+/*
+Author: loma;
+theme: food order website admin;
+version: 1.0;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    padding: 1%;
+    margin: 0 auto;
+    width: 80%;
+}
+.link{
+    text-decoration: none;
+    font-weight: bold;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.full-table{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    color: white;
+    padding: 1%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    color: black;
+    padding: 1%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    color: white;
+    padding: 1%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+/* start css for menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none; /* make no dotes or any other thing aganist list items */
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    color: #ff7979;
+}
+.menu ul li a:hover{
+    color: #eb4d4b;
+}
+/* end css for menu */
+
+/* start css for main-content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 2% 0;
+}
+.col-4{
+    width: 18%;
+    padding: 2%;
+    margin: 1%;
+    background-color: white;
+    float: left;
+}
+/* end css for main-content */
+
+/* start css for footer */
+.footer{
+    background-color: #eb4d4b;
+    color: white;
+}
+/* end css for footer */
